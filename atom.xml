@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-01-17T15:11:37.023Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue</title>
+    <link href="http://example.com/2022/01/17/vue/"/>
+    <id>http://example.com/2022/01/17/vue/</id>
+    <published>2022-01-17T14:47:07.000Z</published>
+    <updated>2022-01-17T15:11:37.023Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="el-挂载点"><a href="#el-挂载点" class="headerlink" title="el.挂载点"></a>el.挂载点</h3><pre><code>&lt;div id=&quot;app&quot;&gt; //html&lt;/div&gt;&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&quot;&gt;&lt;/    script&gt;&lt;script&gt; //jsvar app=new Vue(&#123;    el:&quot;#app&quot;,    data:&#123;        message:&quot;长风&quot;    &#125;&#125;)&lt;/script&gt;</code></pre><ul><li><p>vue实例的作用范围是el选项命中的元素及其内部的后代元素</p></li><li><p>可以使用其他的双标签，不能使用HTML和BODY</p></li></ul><h3 id="data数据对象"><a href="#data数据对象" class="headerlink" title="data数据对象"></a>data数据对象</h3><pre><code>&lt;div id=&quot;app&quot;&gt;&lt;/div&gt;&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&quot;&gt;&lt;/script&gt;&lt;script&gt;    var app = new Vue(&#123;        el: &quot;#app&quot;,        data: &#123;            message: &quot;你好，小胡&quot;,            school: &#123;                name: &quot;长风&quot;,                mobile: &quot;400-618-9090&quot;            &#125;,            campus: [&quot;北京社区&quot;, &quot;上海社区&quot;, &quot;广州社区&quot;, &quot;深圳社区&quot;]        &#125;    &#125;)&lt;/script&gt;</code></pre><h3 id="v-text指令"><a href="#v-text指令" class="headerlink" title="v-text指令"></a>v-text指令</h3><pre><code>&lt;div id=&quot;app&quot;&gt;    &lt;h2 v-text=&quot;message+&#39;!&#39;&quot;&gt;深圳&lt;/h2&gt;    &lt;h2 v-text=&#39;info+&quot;!&quot;&#39;&gt;深圳&lt;/h2&gt;&lt;/div&gt;&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&quot;&gt;&lt;/scripst&gt;&lt;script&gt;    var app = new Vue(&#123;        el: &quot;#app&quot;,        data: &#123;            message: &quot;你好，胡图图&quot;,            info: &quot;胡图图很可爱&quot;        &#125;    &#125;)&lt;/script&gt;    </code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;el-挂载点&quot;&gt;&lt;a href=&quot;#el-挂载点&quot; class=&quot;headerlink&quot; title=&quot;el.挂载点&quot;&gt;&lt;/a&gt;el.挂载点&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt; //html
+&amp;lt;/div</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2022/01/17/hello-world/"/>
+    <id>http://example.com/2022/01/17/hello-world/</id>
+    <published>2022-01-17T11:21:46.792Z</published>
+    <updated>1985-10-26T08:15:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
